@@ -1,0 +1,33 @@
+<section >
+
+
+  <div class="port d-flex flex-column justify-content-center align-items-center w-100 text-center">
+  <div class="title">
+    <h1 class="text-uppercase">portfolio component</h1>
+    <div class="star position-relative">
+      <i class="fa-solid fa-star"></i>
+    </div>
+  </div>
+  <div class="w-50">
+    <form >
+      <div class="mb-3">
+        <label for="userName" class="form-label">userName</label>
+        <input type="text" class="form-control" id="userName" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="userAge" class="form-label">userAge</label>
+        <input type="number" class="form-control" id="userAge" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="userEmail" class="form-label">userEmail</label>
+        <input type="email" class="form-control" id="userEmail" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="userPass" class="form-label">userPassword</label>
+        <input type="password" class="form-control" id="userPass" placeholder="">
+      </div>
+      <button type="submit" class="btn" (click)="onSubmit($event)">Send Message</button>
+    </form>
+  </div>
+  </div>
+</section>

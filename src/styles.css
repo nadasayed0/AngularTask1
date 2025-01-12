@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  font-family: "Alegreya", serif;
+
+}
+
+.star::after{
+
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 200%;
+  transform: translateY(-50%);
+}
+
+.star::before{
+
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 200%;
+  transform: translateY(-50%);
+}

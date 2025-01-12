@@ -1,0 +1,58 @@
+h1, .star i{
+
+  color: #2C3E50;
+}
+
+
+.star::after, .star::before{
+
+  background-color: #2C3E50;
+}
+
+.star::after{
+
+  left: 25%;
+}
+
+.star::before{
+
+  right: 25%;
+}
+
+.port{
+
+  height: 130vh;
+}
+
+img{
+
+  cursor: pointer;
+
+}
+
+.layer{
+  background-color: #1abc9cd4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.5s;
+
+}
+
+
+.col-4:hover .layer{
+
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.layer i{
+
+  font-size: 90px;
+  color: #fff;
+}

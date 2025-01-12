@@ -1,0 +1,32 @@
+h1, .star i{
+
+  color: #2C3E50;
+}
+
+
+.star::after, .star::before{
+
+  background-color: #2C3E50;
+}
+
+.star::after{
+
+  left: 25%;
+}
+
+.star::before{
+
+  right: 25%;
+}
+
+
+.port{
+
+  height: 100vh;
+}
+
+.btn{
+
+  background-color: #1ABC9C;
+  color: #fff;
+}
